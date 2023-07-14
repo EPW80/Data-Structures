@@ -4,7 +4,7 @@ A data structure is a storage used to store and organize data. It is a way of ar
 
 ## Data Structures explored in this folder
 
-- Binary Search tree structure - A Binary Search Tree (BST) is a particular type of data structure in computer science that organizes data for efficient insertion, deletion, and searching.
+- Binary Search Tree structure - A Binary Search Tree (BST) is a particular type of data structure in computer science that organizes data for efficient insertion, deletion, and searching.
 
 - Doubly Linked Lists
 
