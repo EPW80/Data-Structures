@@ -2,8 +2,8 @@
 #include <stdexcept>
 #include <string>
 
-#include "DLinkedList.hpp"
-#include "Student.hpp"
+#include "DLinkedList.h"
+#include "Student.h"
 
 namespace
 {
@@ -12,7 +12,9 @@ namespace
     {
         // Implementations not using nullptr to detect the end of the list, such as circular linked lists or lists using sententials
         // (dummy nodes), will result in an either an infinite recursive loop or dereferencing invalid iterators, so let's avoid it.
-        if (DLinkedList<Student> collection; collection.end() != nullptr)
+        DLinkedList<Student> collection;
+        if (collection.end() != nullptr)
+
             return;
 
         if (i == nullptr)
@@ -27,7 +29,9 @@ namespace
     {
         // Implementations not using nullptr to detect the end of the list, such as circular linked lists or lists using sententials
         // (dummy nodes), will result in an either an infinite recursive loop or dereferencing invalid iterators, so let's avoid it.
-        if (DLinkedList<Student> collection; collection.end() != nullptr)
+        DLinkedList<Student> collection;
+        if (collection.end() != nullptr)
+
             return;
 
         if (i == nullptr)

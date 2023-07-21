@@ -8,7 +8,7 @@ A data structure is a storage used to store and organize data. It is a way of ar
 
 - Doubly Linked Lists - A doubly linked list is a type of linked list in which each node contains a data element and two links pointing to the next and the previous node in the sequence, respectively. This allows for a greater variety of O(1) time complexity operations, such as insertions or deletions from both ends of the list, or the ability to iterate the list in both directions.
 
-- Singly Linked Lists
+- Singly Linked Lists - A singly linked list is a data structure consisting of nodes that together represent a sequence. Each node contains data and a reference (or link) to the next node in the sequence.
 
 - Stacks
 
