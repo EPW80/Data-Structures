@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-#include "Student.h"
+#include "student.h"
 
 /******************************************************************************
 ** Constructors, assignments, and destructor
