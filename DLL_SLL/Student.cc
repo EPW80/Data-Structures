@@ -1,8 +1,8 @@
-#include <iomanip>
+#include <iomanip> // quoted()
 #include <iostream>
 #include <string>
 
-#include "student.h"
+#include "Student.h"
 
 /******************************************************************************
 ** Constructors, assignments, and destructor
@@ -15,6 +15,10 @@ Student::Student(std::string name, unsigned nsem)
     : _name(name), _numOfSemesters(nsem) // Example: constructor initialization list to initialize instance attributes
 {
 }
+
+/******************************************************************************
+** Queries
+******************************************************************************/
 
 /******************************************************************************
 ** Mutators
@@ -47,14 +51,11 @@ void Student::semesters(unsigned semesters)
 **   4) C++20 changes this technique with the introduction of the spaceship
 **      operator
 ******************************************************************************/
-
 bool operator<(const Student &lhs, const Student &rhs)
 {
-    int result = lhs._name.compare(rhs._name);
-    if (result != 0)
+    if (auto result = lhs._name.compare(rhs._name); result != 0)
         return result < 0;
-
-    if (lhs._numOfSemesters != rhs._numOfSemesters)
+    else if (lhs._numOfSemesters != rhs._numOfSemesters)
         return lhs._numOfSemesters < rhs._numOfSemesters;
 
     // At this point all attributes are equal, so the lhs cannot be less than the rhs
