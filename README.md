@@ -14,7 +14,7 @@ A data structure is a storage used to store and organize data. It is a way of ar
 
 - Queues
 
-- Vectors
+- Vectors - A vector in computer science is a dynamic array data structure. It can grow or shrink in size, as required
 
 ## Contributor
 
