@@ -10,9 +10,9 @@ A data structure is a storage used to store and organize data. It is a way of ar
 
 #### Singly Linked Lists: A singly linked list is a data structure consisting of nodes representing a sequence together. Each node contains data and a reference (or link) to the next node in the sequence. The linked list structure uses dynamic memory but not dynamic arrays.
 
-#### Stacks
+#### Stacks:
 
-#### Queues
+#### Queues:
 
 #### Vectors: A vector is a dynamic array that adjusts its size automatically. While traditional arrays have a fixed size that needs to be defined upon declaration, vectors are designed to remove this constraint. When elements are added to a vector and run out of allocated memory, it typically reserves more space than is immediately necessary. This is a deliberate design choice to avoid frequent memory reallocations. When the vector grows beyond this reserved space, a new chunk of memory is allocated, the elements are moved to this new space, and the old memory is released. Access: Constant time (O(1)). Direct access to any element using its index.
 
