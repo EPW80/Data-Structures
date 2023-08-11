@@ -10,7 +10,7 @@ A data structure is a storage used to store and organize data. It is a way of ar
 
 #### Singly Linked Lists: A singly linked list is a data structure consisting of nodes representing a sequence together. Each node contains data and a reference (or link) to the next node in the sequence. The linked list structure uses dynamic memory but not dynamic arrays.
 
-#### Stacks:
+#### Stacks: A stack is a linear data structure that follows the Last In First Out (LIFO) principle. This means that the last element added to the stack will be the first element to be removed. There are mainly two principal operations allowed on a stack: Push: Adds an item to the top of the stack. Pop: Removes the top item from the stack.
 
 #### Queues:
 
